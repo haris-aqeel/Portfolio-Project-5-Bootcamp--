@@ -3,12 +3,15 @@
     src: local('Agustina Regular'), url(../src/Agutina\ 400.otf) format('truetype');
   }
 
+/* Universal Selector   */
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box
 }
 
+/* ================Navabar Style Started=================== */
 .navbar_style{
     margin: 0 auto;
     width: 95%;
@@ -17,18 +20,8 @@
     align-items: center;
 }
 
-.navbar-toggler:focus,
-.navbar-toggler:active,
-.navbar-toggler,
-.navbar-toggler-icon,
-.navbar-toggler-icon:focus {
-    outline: none!important;
-    box-shadow: none!important;
-    border: 0!important;
 
-
-}
-
+/* Navbar Brand */
 .navbar__brand{
     color:purple!important;
     font-weight: 600!important;
@@ -37,22 +30,32 @@
     padding: 0 6px 0 8px!important;
     text-decoration: none!important;
 }
-
 .navbar__brand:hover{
     color: purple!important;
 }
-
 .navbar__brand span {
     font-family: 'Times New Roman', Times, serif;
     opacity: 0.7;
     color: black;
     font-size: 20px;
 }
+
+
+/* Navbar Icon Style */
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler,
+.navbar-toggler-icon,
+.navbar-toggler-icon:focus {
+    outline: none!important;
+    box-shadow: none!important;
+    border: 0!important;
+}
+
+/* Navbar Items Style */
 .navbar__ul{
     margin-left: auto;
 }
-
-
 .navbar__link{
     text-decoration: none;
     color: black;
@@ -61,7 +64,6 @@
     opacity: 0.9;
     font-size: 17px;
 }
-
 .navbar__link:hover{
     text-decoration: none;
     color: black;
@@ -71,13 +73,47 @@
 
 }
 
+/* ================Navabar Style Completed=================== */
 
-.navbar__icon{
-    background: #333;
-    display: block;
-    height: 2px;
-    position: relative;
-    -webkit-transition:  .2s ease-out;
-    transition:  .2s ease-out;
-    width: 18px;
+/* ================Info Started============================== */
+
+.info{
+    margin-top: 60px;
 }
+
+.waving__Hand{
+    font-size: 50px;
+    color: #000;
+    line-height: 1.1.;
+}
+
+.wave {
+    padding-left: 12px;
+    line-height: 1.1;
+    animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
+    animation-duration: 2.5s;        /* Change to speed up or slow down */
+    animation-iteration-count: infinite;  /* Never stop waving :) */
+    transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+    display: inline-block;
+  }
+  
+  @keyframes wave-animation {
+      0% { transform: rotate( 0.0deg) }
+     10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+     20% { transform: rotate(-8.0deg) }
+     30% { transform: rotate(14.0deg) }
+     40% { transform: rotate(-4.0deg) }
+     50% { transform: rotate(10.0deg) }
+     60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+    100% { transform: rotate( 0.0deg) }
+  }
+
+.greeting-text{
+    
+    font-size: 23px;
+    line-height: 40px;
+    color: #868e96;
+    
+}
+
+@media screen()
