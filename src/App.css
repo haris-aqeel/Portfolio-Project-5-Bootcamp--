@@ -19,11 +19,13 @@
 
 .navbar-toggler:focus,
 .navbar-toggler:active,
+.navbar-toggler,
+.navbar-toggler-icon,
 .navbar-toggler-icon:focus {
     outline: none!important;
     box-shadow: none!important;
     border: 0!important;
-    
+
 
 }
 
