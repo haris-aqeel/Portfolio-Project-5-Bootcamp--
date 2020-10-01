@@ -1,19 +1,31 @@
 import React from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 // //import Undraw from 'react-undraw';
 // import { ReactComponent as Ill1 } from '../images/illustration__1.svg'
-import {Animated} from "react-animated-css";
 
+
+// Helping Components
+import SocialIcons from '../HelpfulComponents/SocialIcons'
+import Button from '../HelpfulComponents/Button'
 const Info = () => {
   return (
-    <div className="container info">
-      <div className="row">
+    <div className="container info" data-aos="fade-up"
+    data-aos-offset="200"
+    data-aos-delay="50"
+    data-aos-duration="1500"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="false"
+    data-aos-anchor-placement="top"
+    >
+
+      <div className="row" > 
         <div className="col col-12 col-sm-12 col-md-12 col-lg-6 ">
           <div>
-            <h1 className="waving__Hand">
+            <h1 className="waving__Hand">  
               Hi! I am Haris
-              <span class="wave">
-                  👋
-               </span>
+              <span class="wave" role="img">👋</span>
             </h1>
             <p className="greeting-text">
               Jr. Software developer
@@ -66,6 +78,12 @@ const Info = () => {
               />
               | Maybe A Future MERN stack Developer Or Intern
             </p>
+            <SocialIcons/>
+            <div className='button__row'>
+              <Button text='Contact Me' link='#contact'/>
+              <Button text='See My Resume' link='#contact'/>
+            </div>
+            
           </div>
         </div>
         <div className="col col-12 col-sm-12 col-md-12 col-lg-6 text-center">
@@ -82,5 +100,5 @@ const Info = () => {
     </div>
   );
 };
-
+AOS.init();
 export default Info;

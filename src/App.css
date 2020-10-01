@@ -109,11 +109,96 @@
   }
 
 .greeting-text{
-    
-    font-size: 23px;
+    font-weight: 350;
+    font-size: 22px;
     line-height: 40px;
     color: #868e96;
+}
+
+
+/* Social Icons Helpful Components */
+.SocialMediaIcons{
+    width: 67%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.SocialMediaIcons a {
+    width: 43px; 
+    height: 43px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    color: #fff;
+    font-size: 1.3rem;
+    text-decoration: none;
+    font-family: "Font Awesome 5 Brands";
+}
+
+.SocialMediaIcons a:hover{
+    background-color: #000;
+    color: #fff;
+    transition: .2s ease-in;
+
+}
+
+.github{background-color: #000;}
+
+.linkeden{background-color: #0e76a8;  }
+
+.google{background-color: #ea4335}
+
+.gitlab{background-color: #fca326}
+
+.facebook{background-color: #3b5998;}
+
+.medium{background-color: #000;}
+
+.stackoverflow{background-color: #f48024;}
+
+.SocialMediaIcons a i {
+    user-select: none;
+    font-weight: 400;
+    font-family: "Font Awesome 5 Brands";
     
 }
 
-@media screen()
+
+/* Button Helpful Components */
+
+.button_class__link{
+    background-color: #55198b;
+    border: 2px solid #55198b;
+    color: #fff;
+    font-weight: 600;
+    width: max-content;
+    padding: 13px 22px;
+    margin-right: 45px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin-top: 20px;
+    font-size: 17px;
+    cursor: pointer;
+    transition: all .3s ease-in-out 0s;
+
+}
+
+.button_class__link:hover{
+    border: 2px solid #55198b;
+    background-color: #fff;
+    color: #55198b;
+    transition: all .3s ease-in-out 0s;
+
+}
+
+.button__row{
+    margin-top: 26px;
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+}

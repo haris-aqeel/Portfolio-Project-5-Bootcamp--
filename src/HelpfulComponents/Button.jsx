@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Button = () => {
+const Button = (props) => {
     return (
         <div className='button__maindiv'>
-            <a className='button_class__link' href='#contact'>Contact Me</a>
+            <a className='button_class__link' href={props.link}>{props.text}</a>
         </div>
     )
 }
