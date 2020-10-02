@@ -202,3 +202,53 @@
     display: flex;
     align-items: center;
 }
+
+/* ================ Info Completed ============================== */
+
+/* ================ whoami starts =============================== */
+
+.whoami{
+    margin: 100px 0 0px 0px;
+}
+
+.whoami_header{
+    font-weight: 400;
+    font-size: 40px;
+    padding: 12px 0px;
+    margin: 0;
+}
+
+.whoami_text {
+    color: #868e96;
+    font-size: 18px;
+    padding: 20px 0px;
+}
+
+.whoami_ul{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.whoami_ul li{
+    margin-right: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    display: inline-block;
+    color: #868e96;
+}
+
+.whoami_ul li i {
+    
+    font-weight: 400;
+    font-family: "Font Awesome 5 Brands";
+    font-size: 3rem;
+}
+
+.whoami_ul li p {
+    
+    font-size: 14px;
+    padding-top: 15px;
+}

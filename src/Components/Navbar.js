@@ -8,6 +8,7 @@ import '../App.css'
 //Components 
 import Info from './Info'
 import WhoAmI from './WhoAmI'
+import Services from './Services'
 import OpenSource from './OpenSource'
 import Projects from './Projects'
 import Contact from './Contact'
@@ -28,24 +29,19 @@ const Navbar = () => {
                 
                 <ul className="navbar-nav navbar__ul">
                 <li className="nav-item">
-                    <Link className='navbar__link' to='/whoami'>
-                      Skills
-                    </Link>
+                    <a href='#skills' className='navbar__link'>Skills</a>   
                 </li>
                 <li className="nav-item">
-                    <Link className='navbar__link' to='/opensource'>
-                      OpenSource
-                    </Link>
+                    <a href='#service' className='navbar__link'>Services</a>   
                 </li>
                 <li className="nav-item">
-                    <Link className='navbar__link' to='/projects'>
-                      Projects
-                    </Link>
+                  <a href='#skills' className='navbar__link'>OpenSource</a>
                 </li>
                 <li className="nav-item">
-                    <Link className='navbar__link' to='/contact'>
-                      Contact Me
-                    </Link>
+                  <a href='#projects' className='navbar__link'>Projects</a>
+                </li>
+                <li className="nav-item">
+                  <a href='#contact' className='navbar__link'>Contact Me</a>
                 </li>
                 </ul>
             </div>
@@ -70,6 +66,7 @@ const Navbar = () => {
           <Route exact path="/">
               <Info />
               <WhoAmI />
+              <Services />
               <OpenSource />
               <Projects />
               <Contact />
