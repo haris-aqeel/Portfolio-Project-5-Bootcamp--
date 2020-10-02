@@ -46,6 +46,7 @@
   "devDependencies": {
     "bootstrap": "^5.0.0-alpha2",
     "bootstrap-loader": "^3.0.4",
+    "file-loader": "^6.1.0",
     "jquery": "^3.5.1",
     "tether": "^1.4.7"
   }

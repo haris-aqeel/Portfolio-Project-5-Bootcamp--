@@ -252,3 +252,48 @@
     font-size: 14px;
     padding-top: 15px;
 }
+
+/* ================ whoami completed =============================== */
+
+/* ================ service starts =============================== */
+
+.services{
+    margin-top: 80px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.services h1{
+    font-size: 40px;
+    font-weight: 400;
+    padding: 30px 0px;
+
+}
+
+.services_card{
+    /* background-color: #faf0f0; */
+    background-color: #c5c3f5;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 15px;
+    margin-top: 20px;
+}
+
+.services_card:hover{
+    box-shadow: 0px 0px 4px purple;
+    transform: translate(0px, 10px);
+    transition: .4s ease-in
+}
+
+.card__pic{
+   padding: 20px 0;
+}
+
+.card__body h2{
+    font-size: 24px;
+}
+
+/* ================ service completed =============================== */
