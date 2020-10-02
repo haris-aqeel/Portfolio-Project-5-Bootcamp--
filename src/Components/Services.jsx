@@ -6,7 +6,7 @@ import Dynamic from "../images/dynamic_website.svg";
 const Services = () => {
   return (
     
-    <div className="container services">
+    <div className="container services" id='service'>
       <h1 >My Services</h1>
       <div className="row">
         <div className="col col-lg-4 col-md-6 col-sm-12 col-12">
