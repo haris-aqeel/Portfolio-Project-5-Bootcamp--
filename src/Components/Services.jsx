@@ -8,7 +8,15 @@ const Services = () => {
     
     <div className="container services" id='service'>
       <h1 >My Services</h1>
-      <div className="row">
+      <div className="row"
+       data-aos="fade-down"
+       data-aos-offset="200"
+       data-aos-delay="20"
+       data-aos-duration="1000"
+       data-aos-easing="ease-in"
+       data-aos-mirror="true"
+       data-aos-once="true"
+       data-aos-anchor-placement="top">
         <div className="col col-lg-4 col-md-6 col-sm-12 col-12">
           <div className="services_card">
             <div className="card__pic">

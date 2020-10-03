@@ -10,11 +10,11 @@ const WhoAmI = () => {
           <div
             data-aos="fade-right"
             data-aos-offset="200"
-            data-aos-delay="70"
+            data-aos-delay="50"
             data-aos-duration="1500"
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
-            data-aos-once="false"
+            data-aos-once="true"
             data-aos-anchor-placement="top"
           >
             <img
@@ -28,7 +28,7 @@ const WhoAmI = () => {
           <div
             data-aos="fade-left"
             data-aos-offset="200"
-            data-aos-delay="70"
+            data-aos-delay="50"
             data-aos-duration="1500"
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
@@ -60,9 +60,6 @@ const WhoAmI = () => {
                     </li>
                     <li><i className="fab fa-npm"></i>
                     <p>npm</p>
-                    </li>
-                    <li><i className="fas fa-fire"></i>
-                    <p>firebase</p>
                     </li>
                     <li><i className="fab fa-python"></i>
                     <p>python</p>

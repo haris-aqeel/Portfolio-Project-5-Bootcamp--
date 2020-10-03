@@ -24,12 +24,24 @@ const ProjectDetail = () => {
     fetchRepo();
   }, []);
 
+  
+            
+       
   return (
     <div className="row">
       {storeArray.map((curr, ind) => {
       return (
       <div key={ind} className="col col-lg-6 col-md-12 col-sm-12 col-12">
-            <div className="singleProject">
+            <div className="singleProject"
+            data-aos="fade-up"
+            data-aos-offset="200"
+            data-aos-delay="20"
+            data-aos-duration="1500"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="true"
+            data-aos-anchor-placement="top">
+
               <div className="repo-head">
                 <svg
                   aria-hidden="true"

@@ -8,7 +8,12 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box
+    box-sizing: border-box;
+    
+}
+
+body{
+    overflow-x: hidden;
 }
 
 /* ================Navabar Style Started=================== */
@@ -247,6 +252,12 @@
     font-size: 3rem;
 }
 
+.whoami_ul li i:hover {
+    
+    color: #55198b;
+    transition: .2s ease-in-out;
+}
+
 .whoami_ul li p {
     
     font-size: 14px;
@@ -457,10 +468,6 @@
     font-size: 19px;
 }
 
-.socialicons{
-    
-}
-
 .image-content-profile {
     text-align: right;
     max-width: 100%;
@@ -496,3 +503,43 @@ footer div{
     margin-top: 10px;
     color: #868e96;
 }
+
+/* ====================== Media Query ================================ */
+
+
+@media only screen and (max-width: 850px){
+    .contact{
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .SocialMediaIcons{
+        width: 100%
+    }
+
+    .image-content-profile {
+        text-align: center;
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .right_contact{
+        margin: 60px 0px;
+    }
+
+    .OpenSource h1{
+        font-weight: 400;
+        text-align: center;
+        padding: 40px 0px;
+    }
+    
+    .button__row{
+        justify-content: center;
+    }
+
+    .whoami_header{
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+

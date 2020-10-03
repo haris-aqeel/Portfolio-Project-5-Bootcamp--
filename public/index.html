@@ -2,25 +2,37 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    
+
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
-    <link rel="preload" href="/static/media/Agustina.21f233e1.woff" as="font" type="font/woff" crossorigin/>
+    <link
+      rel="preload"
+      href="/static/media/Agustina.21f233e1.woff"
+      as="font"
+      type="font/woff"
+      crossorigin
+    />
     <meta
       name="description"
       content="Web site created using create-react-app"
     />
-    
+
     <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
+    />
+
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    
-    <script src="https://kit.fontawesome.com/b5131f782b.js" crossorigin="anonymous"></script>
+
+    <script
+      src="https://kit.fontawesome.com/b5131f782b.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
@@ -47,7 +59,12 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
     <script>
-      AOS.init();
+      AOS.init(
+        { disable: "mobile" },
+        { disable: "phone" },
+        { disable: "tablet" }
+      );
+      
     </script>
   </body>
 </html>

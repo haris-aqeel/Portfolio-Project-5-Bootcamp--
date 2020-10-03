@@ -15,9 +15,11 @@ import Contact from './Contact'
 
 
 const Navbar = () => {
+
+  
     return (
         <>
-        <nav className="navbar navbar-expand-lg navbar_style  navbar-light bg-lignt" >
+        <nav className="navbar navbar-expand-lg navbar_style  navbar-light bg-lignt smart-scroll" >
             
               <Link className='navbar-brand navbar__brand' to ='/'><span>&lt;</span> Haris Aqeel <span>/&gt;</span></Link>
             
