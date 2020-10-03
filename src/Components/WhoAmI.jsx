@@ -40,34 +40,34 @@ const WhoAmI = () => {
             </div>
             <div>
                 <ul className='whoami_ul'>
-                    <li><i class="fab fa-html5"></i>
+                    <li><i className="fab fa-html5"></i>
                     <p>html-5</p>
                     </li>
-                    <li><i class="fab fa-css3-alt"></i>
+                    <li><i className="fab fa-css3-alt"></i>
                     <p>css3</p>
                     </li>
-                    <li><i class="fab fa-sass"></i>
+                    <li><i className="fab fa-sass"></i>
                     <p>sass</p> 
                     </li>
-                    <li><i class="fab fa-js-square"></i>
+                    <li><i className="fab fa-js-square"></i>
                     <p>JavaScript</p>
                     </li>
-                    <li><i class="fab fa-bootstrap"></i>
+                    <li><i className="fab fa-bootstrap"></i>
                     <p>Bootstrap</p>
                     </li>
-                    <li><i class="fab fa-react"></i>
+                    <li><i className="fab fa-react"></i>
                     <p>reactjs</p>
                     </li>
-                    <li><i class="fab fa-npm"></i>
+                    <li><i className="fab fa-npm"></i>
                     <p>npm</p>
                     </li>
-                    <li><i class="fas fa-fire"></i>
+                    <li><i className="fas fa-fire"></i>
                     <p>firebase</p>
                     </li>
-                    <li><i class="fab fa-python"></i>
+                    <li><i className="fab fa-python"></i>
                     <p>python</p>
                     </li>
-                    <li><i class="fab fa-docker"></i>
+                    <li><i className="fab fa-docker"></i>
                     <p>Docker</p>
                     </li>
                 </ul>

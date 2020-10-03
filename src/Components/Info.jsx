@@ -25,7 +25,7 @@ const Info = () => {
           <div>
             <h1 className="waving__Hand">  
               Hi! I am Haris
-              <span class="wave" role="img">👋</span>
+              <span className="wave" role="img" aria-labelledby='[]'>👋</span>
             </h1>
             <p className="greeting-text">
               Jr. Software developer

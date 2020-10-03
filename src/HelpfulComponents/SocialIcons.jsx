@@ -9,7 +9,7 @@ const SocialIcons = () => {
         rel="noopener noreferrer"
         target="_blank"
       >
-        <i class="fab fa-github"></i>
+        <i className="fab fa-github"></i>
       </a>
       <a
         href="https://www.linkedin.com/in/haris-aqeel-84b708196/"
@@ -17,7 +17,7 @@ const SocialIcons = () => {
         rel="noopener noreferrer"
         target="_blank"
       >
-        <i class="fab fa-linkedin-in"></i>
+        <i className="fab fa-linkedin-in"></i>
       </a>
       <a
         href="mailto:harisaqeel.2001@gmail.com"
@@ -25,7 +25,7 @@ const SocialIcons = () => {
         rel="noopener noreferrer"
         target="_blank"
       >
-        <i class="fab fa-google"></i>
+        <i className="fab fa-google"></i>
       </a>
       <a
         href="https://gitlab.com/harisaqeel.2001"
@@ -33,7 +33,7 @@ const SocialIcons = () => {
         rel="noopener noreferrer"
         target="_blank"
       >
-        <i class="fab fa-gitlab"></i>
+        <i className="fab fa-gitlab"></i>
       </a>
       <a
         href="https://www.facebook.com/haris.aqeel.50"
@@ -41,7 +41,7 @@ const SocialIcons = () => {
         rel="noopener noreferrer"
         target="_blank"
       >
-        <i class="fab fa-facebook-f"></i>
+        <i className="fab fa-facebook-f"></i>
       </a>
       <a
         href="https://medium.com/@harisaqeel.2001"
@@ -49,7 +49,7 @@ const SocialIcons = () => {
         rel="noopener noreferrer"
         target="_blank"
       >
-        <i class="fab fa-medium"></i>
+        <i className="fab fa-medium"></i>
       </a>
       <a
         href="https://stackoverflow.com/users/12381497/haris-aqeel"
@@ -57,7 +57,7 @@ const SocialIcons = () => {
         rel="noopener noreferrer"
         target="_blank"
       >
-        <i class="fab fa-stack-overflow"></i>
+        <i className="fab fa-stack-overflow"></i>
       </a>
     </div>
   );
